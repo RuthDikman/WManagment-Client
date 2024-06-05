@@ -5,6 +5,25 @@
     <link rel="icon" type="image/svg+xml" href="./src/assets/logo1.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WM</title>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyCwc1WUbVzyeh-YGeZIYjjZKfo7rhuZ-Wg",
+        authDomain: "wm-workers-management.firebaseapp.com",
+        projectId: "wm-workers-management",
+        storageBucket: "wm-workers-management.appspot.com",
+        messagingSenderId: "784263366563",
+        appId: "1:784263366563:web:4952886c1c1f7c34693c16"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+    </script>
   </head>
   <body>
     <div id="root"></div>
